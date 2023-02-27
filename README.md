@@ -16,14 +16,10 @@ The activity is based from the CRISP-DM framework which follows the following hi
 5. Evaluation
 6. Deployment
    
-    
 <center>
     <img src = images/crisp.png width = 50%/>
 </center>
-![image.png](attachment:image.png)
-<!-- <center>
-    <img src = ![image.png](attachment:image.png) width = 50%/>
-</center> -->
+
 
     
 ### Business Understanding
@@ -37,6 +33,10 @@ The goal for this activity is:
 
 This step will allow us to have a general understanding of data by analyzing relationships, identify data quality issues, and create visualizations about the features found in the data set. Based on this activity, we would want to predict the sale price of cars and as such, this is a Regression problem.
     
+<center>
+    <img src = images/sklearn_algo_cs.png width = 50%/>
+</center>	
+	
 
 ### Data Preparation
     
