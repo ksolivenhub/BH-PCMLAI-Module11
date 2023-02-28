@@ -114,7 +114,7 @@ To automate the process, a GridSearchCV object is used to iterate over a predefi
 ---
     
 <center>
-    <img src = images/Attempt1.png width = 50%/>
+    <img src = images/Attempt1.PNG width = 50%/>
 </center>
     
 In my first attempt, I have performed the following:
@@ -153,7 +153,7 @@ Test MAE: 0.5962240401620559
 ---
    
 <center>
-    <img src = images/Attempt2.png width = 50%/>
+    <img src = images/Attempt2.PNG width = 50%/>
 </center>
 
 In my second attempt, I have performe the following: 
