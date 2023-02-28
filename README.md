@@ -3,33 +3,7 @@
 This repository contains the practical application assignment for Module 11.
 Additional details are provided in this activity's Juniper Notebook.
 
-Notebook link: <LINK URL>
-
-
-## Methodology
-
-The activity is based from the CRISP-DM framework which follows the following high-level steps:
-1. Business Understanding
-2. Data Understanding
-3. Data Preparation
-4. Modeling
-5. Evaluation
-6. Deployment
-   
-<center>
-    <img src = images/crisp.png width = 50%/>
-</center>
-
-
-    
-	
-	
-# BH-PCMLAI-Module11
-
-This repository contains the practical application assignment for Module 11.
-Additional details are provided in this activity's Juniper Notebook.
-
-Notebook link: <LINK URL>
+Notebook link: https://github.com/ksolivenhub/BH-PCMLAI-Module11/blob/main/ksoliven%20-%20prompt_II%20-%20fin.ipynb
 
 
 ## Methodology
