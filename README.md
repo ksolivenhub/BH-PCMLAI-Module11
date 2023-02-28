@@ -85,7 +85,7 @@ This step will ensure that the data has been preprocessed and that it has been p
 3. Feature Selection (Initial)
     - I have used a variety of techniques as an experiment and are as follows:
         - **Attempt 1**
-            - IVF
+            - VIF
                 - The results showed values less than 5, which means that multicolinearity does not exist
             - SFS
                 - The results showed that `condition, cylinders, title_status, transmission, and drive` are features of interest
@@ -195,15 +195,7 @@ When comparing error with target (test set):
     
 ### Evaluation
     
-For this section, the focus would be on my submission Attempt 1.
-    
-· Appropriate interpretation of coefficients in models
-· Appropriate interpretation of evaluation metric
-· Clear identification of evaluation metric
-· Clear rationale for use of given evaluation metric    
-    
-    
-With some modeling accomplished, we aim to reflect on what we identify as a high quality model and what we are able to learn from this.  We should review our business objective and explore how well we can provide meaningful insight on drivers of used car prices.  Your goal now is to distill your findings and determine whether the earlier phases need revisitation and adjustment or if you have information of value to bring back to your client.
+For this section, the focus would be on my submission Attempt 1.   
 
 The following are my findings that can potentially improve my model and other useful information that I can share with the client:
     
