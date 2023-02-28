@@ -17,7 +17,7 @@ The activity is based from the CRISP-DM framework which follows the following hi
 6. Deployment
    
 <center>
-    <img src = images/crisp.png width = 50%/>
+    <img src = images/crisp.png width = 30%/>
 </center>
 
 
@@ -34,7 +34,7 @@ The goal for this activity is:
 This step will allow us to have a general understanding of data by analyzing relationships, identify data quality issues, and create visualizations about the features found in the data set. Based on this activity, we would want to predict the sale price of cars and as such, this is a Regression problem.
     
 <center>
-    <img src = images/sklearn_algo_cs.png width = 50%/>
+    <img src = images/sklearn_algo_cs.png width = 70%/>
 </center>
 
 ### Data Preparation
@@ -114,7 +114,7 @@ To automate the process, a GridSearchCV object is used to iterate over a predefi
 ---
     
 <center>
-    <img src = images/Attempt1.PNG width = 50%/>
+    <img src = images/Attempt1.PNG width = 30%/>
 </center>
     
 In my first attempt, I have performed the following:
@@ -153,10 +153,10 @@ Test MAE: 0.5962240401620559
 ---
    
 <center>
-    <img src = images/Attempt2.PNG width = 50%/>
+    <img src = images/Attempt2.PNG width = 30%/>
 </center>
 
-In my second attempt, I have performe the following: 
+In my second attempt, I have performed the following: 
 
     
 1. Perform a GridSearchCV over a Pipeline that uses column(cat/num features) preprocessing techniques (One Hot Encoding and StandardScaler), 1st stage of SFS, PolynomialFeatures, and 2nd stage of SFS, and using the Ridge Regression model.    
@@ -251,9 +251,10 @@ Based on the results of this analysis, we can conclude that the model is able to
 The following are the recommendations that can be used moving forward:
 1. Use the metrics obtained from the model to perform car pricing initiatives within the organization
    - A simple formula can be obtained which are as follows:
-      
-  `price_pred = 'condition'*(-0.05614311) +  'cylinders^2'*(0.04209613) + 'cylinders^3'*(0.01194092) + 'drive^3'*(0.04234781)`
-    
+  
+  ```
+  price_pred = 'condition'*(-0.05614311) +  'cylinders^2'*(0.04209613) + 'cylinders^3'*(0.01194092) + 'drive^3'*(0.04234781)
+  ```  
     
    - Note that the variables `condition`, `cylinders`, and `drive` should be numerically represented which can be taken from the analysis
     
